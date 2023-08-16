@@ -33,5 +33,5 @@ SUBMIT_BUTTON.onclick = function() {
     let b = Number(B_TEXT_BOX.value);
     let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
-    RESULTADO.innerHTML = `Resultado C = ${c}`;
+    RESULTADO.innerHTML = `Resultado: C = ${a}² + ${b}² = ${c}`;
 }
