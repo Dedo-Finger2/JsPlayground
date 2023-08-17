@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <title>Teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+        crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-white">
+
+    <!-- Header -->
+    <div class="jumbotron bg-primary shadow p-3 text-center m-3 rounded-3">
+        <h1 class="text-capitalize">Math.random()</h1>
+    </div>
+
+    <!-- Outputs -->
+    <div id="containerGeral" class=" m-2 ">
+        <div class="container bg-light bg-gradient text-black shadow rounded p-4 text-center">
+            <h1 class="mb-4 text-center">Exemplo com dados</h1>
+            <label id="dado1" class="fw-bolder fs-2 ms-4 me-4">0</label>
+            <label id="dado2" class="fw-bolder fs-2 ms-4 me-4">0</label>
+            <label id="dado3" class="fw-bolder fs-2 ms-4 me-4">0</label>
+            <div class="container-fluid mt-4">
+                <button id="rollDice" class="btn btn-outline-primary bg-gradient shadow-sm">Rolar dados</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Código -->
+    <div class="container bg-black p-4 rounded mb-5 shadow-lg">
+        <pre id="file-content" class="text-white"></pre>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script type="module" src="random-number.js"></script>
+</body>
+
+</html>
